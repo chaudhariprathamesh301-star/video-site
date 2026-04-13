@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.upload-box {
+  margin: 20px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #1c1c1c;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 15px;
+  width: 300px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+button, a {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.like { background: red; color: white; }
+.share { background: blue; color: white; }
+.download { background: green; color: white; }
